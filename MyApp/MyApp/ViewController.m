@@ -7,6 +7,7 @@
 //
 
 #import <Flutter/Flutter.h>
+#import "AppDelegate.h"
 #import "ViewController.h"
 
 @implementation ViewController
@@ -23,8 +24,8 @@
 }
 
 - (void)handleButtonAction {
-    FlutterViewController* flutterViewController = [[FlutterViewController alloc] init];
-    [flutterViewController setInitialRoute:@"route1"];
+    FlutterEngine *flutterEngine = [(AppDelegate *)[[UIApplication sharedApplication] delegate] flutterEngine];
+    FlutterViewController *flutterViewController = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
     [self presentViewController:flutterViewController animated:false completion:nil];
 }
 @end
