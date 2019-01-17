@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 void main() => runApp(MyApp());
 
@@ -57,10 +56,6 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  void _pop() {
-    SystemNavigator.pop();
-  }
-
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -101,11 +96,6 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.display1,
-            ),
-            FloatingActionButton(
-              onPressed: _pop,
-              tooltip: 'pop',
-              child: Icon(Icons.arrow_left),
             ),
           ],
         ),
