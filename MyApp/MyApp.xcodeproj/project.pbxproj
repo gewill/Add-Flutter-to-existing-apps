@@ -107,7 +107,7 @@
 				BE8C317C21D31B4100A3B9AA /* Frameworks */,
 				BE8C317D21D31B4100A3B9AA /* Resources */,
 				1BB3A2D67A98226DC7C8C8C0 /* [CP] Embed Pods Frameworks */,
-				BE8C319821D31E0400A3B9AA /* ShellScript */,
+				BE8C319821D31E0400A3B9AA /* Flutter:  building the Dart code */,
 			);
 			buildRules = (
 			);
@@ -208,7 +208,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BE8C319821D31E0400A3B9AA /* ShellScript */ = {
+		BE8C319821D31E0400A3B9AA /* Flutter:  building the Dart code */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -217,6 +217,7 @@
 			);
 			inputPaths = (
 			);
+			name = "Flutter:  building the Dart code";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -378,7 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 49DWBLKGXF;
+				DEVELOPMENT_TEAM = RLK76T8Y89;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -397,7 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 49DWBLKGXF;
+				DEVELOPMENT_TEAM = RLK76T8Y89;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
