@@ -6,6 +6,8 @@ PODS:
     - Flutter
     - flutter_growingio_track
   - Growing (2.6.7)
+  - GrowingAutoTrackKit (2.6.7):
+    - GrowingCoreKit (~> 2.6.7)
   - GrowingCoreKit (2.6.7):
     - Growing (~> 2.6.7)
 
@@ -13,11 +15,12 @@ DEPENDENCIES:
   - Flutter (from `../my_flutter/.ios/Flutter/engine`)
   - flutter_growingio_track (from `../my_flutter/.ios/Flutter/.symlinks/flutter_growingio_track/ios`)
   - FlutterPluginRegistrant (from `../my_flutter/.ios/Flutter/FlutterPluginRegistrant`)
-  - GrowingCoreKit
+  - GrowingAutoTrackKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Growing
+    - GrowingAutoTrackKit
     - GrowingCoreKit
 
 EXTERNAL SOURCES:
@@ -33,8 +36,9 @@ SPEC CHECKSUMS:
   flutter_growingio_track: 0198142e08415d10366b7cdfb1fbf0be2bc0c3be
   FlutterPluginRegistrant: e9c15a3c0c1fbfb3372a4bdc243a18c843ba9bf1
   Growing: 8de664bdd8d1ea3cdfda60cb2cc8cac94a006708
+  GrowingAutoTrackKit: 95395ce2340ed88dbf8e2d3ee6edd2b25651aaa3
   GrowingCoreKit: 3fcfbb301e8dfc5a408d17e5add7421a3556157c
 
-PODFILE CHECKSUM: 3155065565f57302894edd69dd02d943faf50ba7
+PODFILE CHECKSUM: ea4e171678bfb7035c4716dc8285eb33dc79003b
 
 COCOAPODS: 1.5.3
