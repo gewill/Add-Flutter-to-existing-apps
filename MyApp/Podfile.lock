@@ -1,21 +1,36 @@
 PODS:
   - Flutter (1.0.0)
+  - flutter_boost (0.0.1):
+    - Flutter
+    - xservice_kit
   - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - flutter_boost
+    - xservice_kit
+  - xservice_kit (0.0.1):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `../my_flutter/.ios/Flutter/engine`)
+  - flutter_boost (from `../my_flutter/.ios/Flutter/.symlinks/flutter_boost/ios`)
   - FlutterPluginRegistrant (from `../my_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - xservice_kit (from `../my_flutter/.ios/Flutter/.symlinks/xservice_kit/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: "../my_flutter/.ios/Flutter/engine"
+  flutter_boost:
+    :path: "../my_flutter/.ios/Flutter/.symlinks/flutter_boost/ios"
   FlutterPluginRegistrant:
     :path: "../my_flutter/.ios/Flutter/FlutterPluginRegistrant"
+  xservice_kit:
+    :path: "../my_flutter/.ios/Flutter/.symlinks/xservice_kit/ios"
 
 SPEC CHECKSUMS:
   Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
-  FlutterPluginRegistrant: 8855ca2b426d228cb41aa6c26c0c83b8c49e3593
+  flutter_boost: 0e85ea37c74ed39ee7b91a35612afa1605557484
+  FlutterPluginRegistrant: 09e35a5c8903bbd46dc4a41f36a0075b6d4714d1
+  xservice_kit: a2f1b35addc126fce8687aeb183ab0c1ada5b7f3
 
 PODFILE CHECKSUM: fe55b6fd728fbe043a0824201edbb48b5985ecde
 

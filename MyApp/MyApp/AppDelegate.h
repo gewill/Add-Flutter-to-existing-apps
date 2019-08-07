@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <Flutter/Flutter.h>
+#import <flutter_boost/FlutterBoost.h>
 
-@interface AppDelegate : FlutterAppDelegate
+@interface AppDelegate : FLBFlutterAppDelegate
 
 @property (strong, nonatomic) UIWindow *window;
 @property (nonatomic, strong) FlutterEngine *flutterEngine;

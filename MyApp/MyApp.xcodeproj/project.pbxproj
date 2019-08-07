@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,10 @@
 		BE8C318C21D31B4200A3B9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8C318B21D31B4200A3B9AA /* Assets.xcassets */; };
 		BE8C318F21D31B4200A3B9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8C318D21D31B4200A3B9AA /* LaunchScreen.storyboard */; };
 		BE8C319221D31B4200A3B9AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8C319121D31B4200A3B9AA /* main.m */; };
+		BEA2C82722FAB582008A3721 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA2C82622FAB582008A3721 /* libc++.tbd */; };
+		BEA2C82A22FAB5CC008A3721 /* DemoRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA2C82922FAB5CC008A3721 /* DemoRouter.m */; };
+		BEA2C82E22FAB67D008A3721 /* UIViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA2C82C22FAB67D008A3721 /* UIViewControllerDemo.m */; };
+		BEA2C82F22FAB67D008A3721 /* UIViewControllerDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEA2C82D22FAB67D008A3721 /* UIViewControllerDemo.xib */; };
 		D76A5097A5B7E5639689B8C7 /* libPods-MyApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE80B114A0B2A89EB93D67D /* libPods-MyApp.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +33,12 @@
 		BE8C318E21D31B4200A3B9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE8C319021D31B4200A3B9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE8C319121D31B4200A3B9AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEA2C82622FAB582008A3721 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		BEA2C82822FAB5CC008A3721 /* DemoRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoRouter.h; sourceTree = "<group>"; };
+		BEA2C82922FAB5CC008A3721 /* DemoRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoRouter.m; sourceTree = "<group>"; };
+		BEA2C82B22FAB67D008A3721 /* UIViewControllerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerDemo.h; sourceTree = "<group>"; };
+		BEA2C82C22FAB67D008A3721 /* UIViewControllerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerDemo.m; sourceTree = "<group>"; };
+		BEA2C82D22FAB67D008A3721 /* UIViewControllerDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIViewControllerDemo.xib; sourceTree = "<group>"; };
 		EEE80B114A0B2A89EB93D67D /* libPods-MyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -37,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA2C82722FAB582008A3721 /* libc++.tbd in Frameworks */,
 				D76A5097A5B7E5639689B8C7 /* libPods-MyApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +80,11 @@
 				BE8C318321D31B4100A3B9AA /* AppDelegate.m */,
 				BE8C318521D31B4100A3B9AA /* ViewController.h */,
 				BE8C318621D31B4100A3B9AA /* ViewController.m */,
+				BEA2C82822FAB5CC008A3721 /* DemoRouter.h */,
+				BEA2C82922FAB5CC008A3721 /* DemoRouter.m */,
+				BEA2C82B22FAB67D008A3721 /* UIViewControllerDemo.h */,
+				BEA2C82C22FAB67D008A3721 /* UIViewControllerDemo.m */,
+				BEA2C82D22FAB67D008A3721 /* UIViewControllerDemo.xib */,
 				BE8C318821D31B4100A3B9AA /* Main.storyboard */,
 				BE8C318B21D31B4200A3B9AA /* Assets.xcassets */,
 				BE8C318D21D31B4200A3B9AA /* LaunchScreen.storyboard */,
@@ -81,6 +97,7 @@
 		DA79C8B43FDFA0147D21E796 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BEA2C82622FAB582008A3721 /* libc++.tbd */,
 				EEE80B114A0B2A89EB93D67D /* libPods-MyApp.a */,
 			);
 			name = Frameworks;
@@ -158,6 +175,7 @@
 				BE8C318F21D31B4200A3B9AA /* LaunchScreen.storyboard in Resources */,
 				BE8C318C21D31B4200A3B9AA /* Assets.xcassets in Resources */,
 				BE8C318A21D31B4100A3B9AA /* Main.storyboard in Resources */,
+				BEA2C82F22FAB67D008A3721 /* UIViewControllerDemo.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +247,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE8C318721D31B4100A3B9AA /* ViewController.m in Sources */,
+				BEA2C82A22FAB5CC008A3721 /* DemoRouter.m in Sources */,
 				BE8C319221D31B4200A3B9AA /* main.m in Sources */,
+				BEA2C82E22FAB67D008A3721 /* UIViewControllerDemo.m in Sources */,
 				BE8C318421D31B4100A3B9AA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
